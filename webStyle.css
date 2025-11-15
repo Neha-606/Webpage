@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: orangered;
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 16px;
+    margin-top: 27px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    padding: 8px;
+    background: transparent;
+    margin-left: 20px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid orangered;
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    margin-top: 12px;
+    border: none;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cn{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.cn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    font-size: 60px;
+    color: orangered;
+}
+.login{
+    width: 270px;
+    height: 430px;
+    background: linear-gradient(rgba(0, 0, 0, 0.674)50%, rgba(0, 0, 0, 0.674)50%);
+    position: absolute;
+    margin-left: 1100px;
+    padding: 20px;
+    margin-top: -370;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.login h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.login input{
+    width: 225px;
+    height: 35px;
+    margin: 20px 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid orangered;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 15px;
+    background: transparent;
+    letter-spacing: 1px;
+    color: white;
+}
+.login input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+
+    width: 240px;
+    height: 40px;
+    background-color: orangered ;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor:pointer
+}
+.btnn a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.btnn:hover{
+    background: white;
+    
+}
+.login .link{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link a{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.liw{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.social_icon{
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+.social_icon i:hover{
+    color: orangered;
+}
+.social_icon i{
+    padding: 5px;
+    font-size: 20px;
+}
